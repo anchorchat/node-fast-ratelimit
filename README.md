@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/valeriansaliou/node-fast-ratelimit/master.svg)](https://travis-ci.org/valeriansaliou/node-fast-ratelimit) [![Test Coverage](https://img.shields.io/coveralls/valeriansaliou/node-fast-ratelimit/master.svg)](https://coveralls.io/github/valeriansaliou/node-fast-ratelimit?branch=master) [![NPM](https://img.shields.io/npm/v/fast-ratelimit.svg)](https://www.npmjs.com/package/fast-ratelimit) [![Downloads](https://img.shields.io/npm/dt/fast-ratelimit.svg)](https://www.npmjs.com/package/fast-ratelimit) [![Gitter](https://img.shields.io/gitter/room/valeriansaliou/node-fast-ratelimit.svg)](https://gitter.im/valeriansaliou/node-fast-ratelimit)
 
-Fast and efficient in-memory rate-limit, used to alleviate severe DOS attacks.
+Fast and efficient in-memory rate-limit, used to alleviate most common DOS attacks.
 
 This rate-limiter was designed to be as generic as possible, usable in any NodeJS project environment, regardless of wheter you're using a framework or just vanilla code.
 
@@ -14,20 +14,22 @@ Rate-limit lists are stored in a native hashtable to avoid V8 GC to hip on colle
 <tr>
 <td align="center"><a href="https://crisp.im/"><img src="https://valeriansaliou.github.io/node-fast-ratelimit/images/crisp.png" height="64" /></a></td>
 <td align="center"><a href="https://www.doctrine.fr/"><img src="https://valeriansaliou.github.io/node-fast-ratelimit/images/doctrine.png" height="64" /></a></td>
+<td align="center"><a href="https://anchor.chat/"><img src="https://valeriansaliou.github.io/node-fast-ratelimit/images/anchorchat.jpg" height="64" /></a></td>
 </tr>
 <tr>
 <td align="center">Crisp</td>
 <td align="center">Doctrine</td>
+<td align="center">Anchor.Chat</td>
 </tr>
 </table>
 
-_👋 You use fast-ratelimit and you want to be listed there? [Contact me](https://valeriansaliou.name/)!_
+_👋 You use fast-ratelimit and you want to be listed there? [Contact me](https://valeriansaliou.name/)._
 
 ## How to install?
 
-Include `rate-limit` in your `package.json` dependencies.
+Include `fast-ratelimit` in your `package.json` dependencies.
 
-Alternatively, you can run `npm install rate-limit --save`.
+Alternatively, you can run `npm install fast-ratelimit --save`.
 
 **Note**: ensure you have a C++11 compiler available. This allows for node-gyp to build the `hashtable` dependency that `fast-ratelimit` depends on.
 
